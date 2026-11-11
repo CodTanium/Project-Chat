@@ -1,16 +1,25 @@
 {
-  "name": "chat-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^5.1.0",
-    "socket.io": "^4.8.1"
-  }
+    "name": "chat-server",
+    "version": "1.0.0",
+    "description": "Multi-user chat: Socket.IO server (Node.js) and a C# console client",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "node --test"
+    },
+    "keywords": [
+        "chat",
+        "socket.io",
+        "express",
+        "csharp"
+    ],
+    "author": "Masoud Dehdar",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0",
+        "socket.io": "^4.8.1"
+    },
+    "devDependencies": {
+        "socket.io-client": "^4.8.4"
+    }
 }

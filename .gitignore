@@ -1,1 +1,13 @@
-node_modules
+# Node
+node_modules/
+
+# .NET build output
+bin/
+obj/
+.vs/
+*.user
+
+# Editors and office lock files
+.idea/
+.vscode/
+.~lock.*
